@@ -1,0 +1,133 @@
+.gap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-column-gap: 100px; */
+  /* border: 1px solid black; */
+}
+
+#root {
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(3, 0.5fr);
+  grid-gap: 100px;
+}
+
+.sidebar {
+  height: 100fr;
+  width: 20fr;
+  border-radius: 5px;
+  background-color: #eee;
+  margin-left: 10px;
+  text-align: center;
+  /* border-left: 1px solid black; */
+  padding-bottom: 1000px;
+}
+.headdd {
+  background-color: goldenrod;
+  border-radius: 3px;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.foot {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+  padding: 10px 0px;
+  border-top: 1px solid;
+}
+
+.img-box {
+  width: 20rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  box-shadow: black;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  background-color: #e8e2e2;
+}
+.img-box:hover {
+  transform: scale(1.03);
+  box-shadow: 0 13px 40px -5px;
+}
+.images {
+  max-width: 100%;
+  max-height: 90%;
+  object-fit: cover;
+  object-position: center;
+}
+.aaaa {
+  font-size: 20px;
+  color: red;
+}
+#count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.butto {
+  width: 100%;
+  position: relative;
+  border: none;
+  border-radius: 5px;
+  background-color: goldenrod;
+  padding: 7px 25px;
+  cursor: pointer;
+  color: white;
+}
+.butto:hover {
+  color: #333;
+}
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  border-bottom: 1px solid #aaa;
+  border-radius: 3px;
+  margin: 10px 10px;
+}
+.row-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid goldenrod;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rowimg {
+  max-width: 43px;
+  max-height: 43px;
+  border-radius: 50%;
+}
+.fa-trash:hover {
+  cursor: pointer;
+  color: goldenrod;
+}
+
+.ffff {
+  width: 100%;
+  position: relative;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(46, 118, 234);
+  padding: 7px 25px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid black;
+  margin-top: 15px;
+}
+.ffff:hover {
+  color: #333;
+}

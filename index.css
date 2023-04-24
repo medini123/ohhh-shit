@@ -1,0 +1,14 @@
+.bomb {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(91, 217, 91);
+  border-radius: 3px;
+  height: 50px;
+  width: 70%;
+  padding-left: 200px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
