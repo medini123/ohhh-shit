@@ -60,8 +60,8 @@
   box-shadow: 0 13px 40px -5px;
 }
 .images {
-  max-width: 100%;
-  max-height: 90%;
+  width: 300px;
+  height: 330px;
   object-fit: cover;
   object-position: center;
 }
